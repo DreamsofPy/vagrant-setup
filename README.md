@@ -1,34 +1,49 @@
 ##Vagrant Setup
 
-Steps to setup a vagrant box
+What You Need
+-------------
 
-###INSTALLATION
+- Git_
+- `A GitHub account`_
+- `The code`_
+- VirtualBox_
+- Vagrant_ (`docs <http://docs.vagrantup.com/v2/>`_)
 
-Install the following:
+.. _Git: http://git-scm.com/downloads
+.. _A GitHub account: https://github.com
+.. _The code: https://github.com/NYCPython/nycpython.com
+.. _Vagrant: http://downloads.vagrantup.com/
+.. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
-* [Vagrant](http://downloads.vagrantup.com/tags/v1.2.2)
-* [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+Setup
+-----
 
-####SETUP
+1. Clone this repo
 
-1. Clone the repo
-2. Run:
+    ```git clone git@github.com:DreamsofPy/vagrant-setup.git```
+
+2. After doing that, execute the following command to build your local virtual machine
 
     ```vagrant up```
-3. Once everything is setup. Run:
+
+3. You can access all of your code locally, but you will need the virtual machine
+to access the server. To access the virtual machine's command line interface,
+execute the following command
 
     ```vagrant ssh```
+
 4. In the vagrant box go to /vagrant
 
     ```cd /vagrant```
-5. Run the Makefile
+
+5. Run the Makefile to download the auxillary libraries
 
     ```make install```
-6. Lastly,
+
+6. Lastly run,
 
     ```source ~/.bashrc```
 
-And you ready to go.
 
 #####Mongo
 
