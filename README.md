@@ -3,17 +3,10 @@
 What You Need
 -------------
 
-- Git_
-- `A GitHub account`_
-- `The code`_
-- VirtualBox_
-- Vagrant_ (`docs <http://docs.vagrantup.com/v2/>`_)
-
-.. _Git: http://git-scm.com/downloads
-.. _A GitHub account: https://github.com
-.. _The code: https://github.com/NYCPython/nycpython.com
-.. _Vagrant: http://downloads.vagrantup.com/
-.. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
+- [Git](http://git-scm.com/downloads)
+- [A GitHub account](https://github.com)
+- [VirtualBox](http://downloads.vagrantup.com/)
+- [Vagrant](https://www.virtualbox.org/wiki/Downloads)
 
 Setup
 -----
